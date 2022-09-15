@@ -1,0 +1,15 @@
+.header {   
+display: flex;
+ justify-content: space-between; flex: auto;
+background-color:#1F2937;
+align-items: center;
+flex-grow: 1;
+}
+
+a {text-decoration: none; color: aliceblue;}
+a:hover {color: red;}
+
+ul {display: flex;
+list-style-type: none;
+}
+li{ margin: 10px;}
