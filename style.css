@@ -12,6 +12,7 @@ button {font-size: 10px; padding: 10px; height: 25px; width: 70px;}
 
 #hero-text {font-weight: bolder; color: white; font-size: 48px; margin-bottom: -40px;}
 #blurb { font-size: 18px; color: white; margin: 0; padding: 0;}
+#blurb p {font-size: 18px;}
 
 button {background-color: #3882F6; font-weight:bold; color: white; padding:3px; 
 border-radius: 8px; border-color: #3882F6; border-style: solid;}
@@ -29,7 +30,11 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 /* second section code*/
 
-.title {text-align: center;}
+.title {text-align: center; font-weight: bolder;}
 .cards {display: flex; justify-content: center; gap: 100px; justify-content: center;}
 .one, .two, .three, .four {width: 200px; margin: 5px; padding: 10px; gap: 10px;}
 .card-img {display: flex; align-items: center;}
+
+.card-img {border: 5px solid; border-color: #3882F6; border-radius: 8px; width: 100px; height: 100px;}
+
+/*.one p {font-weight: bolder;}*/
